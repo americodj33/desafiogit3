@@ -1,0 +1,201 @@
+/* Aca hay un comentario en CSS
+    selector : etiquetas clases id
+    propiedad valor
+*/
+
+/* Header
+
+
+Color indigo 0D5285
+
+*/
+* {
+    margin : 0 ;
+    padding  : 0;
+}
+h1 {
+    color: #0D5285;
+    background-color:lavender;
+    text-decoration:solid;
+    font-weight: bold;
+    display: inline;
+}
+h1 {
+    color: #0D5285;
+    background-color:lavender;
+    text-decoration: underline;
+    font-weight: bold;
+    display: block;
+}
+h3 {
+    color: #0D5285;
+    background-color:lavender;
+    text-decoration: underline;
+    font-weight: bold;
+    display: block;
+}   
+
+
+P {
+    font-style: italic;
+}
+/* las clases son reutilizables */
+.paragraph {
+    font-size: large;
+    font-weight: bold;
+    color: #c6b08f;
+}
+ul li {
+    text-decoration: underline;
+    display: inline;
+}
+
+.imagen {
+    width: 15%;
+    height: 12%;
+    padding: 0 0 0 0;
+}
+
+.imagenport {
+    width: 35%;
+    height: 30%;
+}
+
+
+.imagenfooter {
+    width: 6%;
+    height: 8%;
+    margin-inline-end: auto;
+}
+
+
+nav li:first-child {
+    margin-left: 0
+    }
+    nav span,
+    nav a {
+    padding: 2px 8px 4px
+    }
+    nav span {
+    background: #722;
+    color: #fff
+    }
+    nav header {
+      margin-left: 0;
+    font-size: 12px;
+      padding: 0
+    }
+    nav span {
+        background: #722;
+        color: #fff
+        }
+/* STYLE DEL MENU */
+nav {
+    margin-left: 0;
+    font-size: 1.5em;
+    margin: 0 0;
+    padding: 10px 25px;
+    background: #c6b08f;
+    color: #fff
+}
+nav li {
+    display: inside;
+    margin: 0 10px
+}
+nav li:first-child {
+    margin-left: 0
+}
+* html nav ul {
+    margin-left: 0
+}
+nav span, nav a {
+    padding: 3px 4px 1px
+}
+nav span {
+    background: #722;
+    color: #fff
+}
+/* STYLE DE LAS SECCIONES */
+section {
+margin: 10px;
+    background: #394F70;
+    border-radius: 6px;
+    color: white;
+    font: 14px/24px "times new roman";
+    padding: 24px 15px;
+    box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+    display:block;
+  }
+
+
+ section article {
+    margin: 0 50px 80px;
+    padding: 25px 0 0;
+    position: relative
+ }
+ section header {
+    font-size: 1em;
+    padding: 0;
+ }
+ section h2 {
+    font-size: 2.3em;
+ }
+
+ /* STYLE DEL FOOTER */
+ footer {
+    clear:right;
+    color: black;  
+    padding: 10px 10px;
+    font: bold;
+
+}
+
+/* style del blog */
+
+.imagenblog {
+    width: 70%;
+    height: 55%;
+}
+
+.row {
+    display:inline;
+    flex-direction:row-reverse;
+    flex-wrap:wrap;
+    justify-content:center;
+    }
+
+    
+    .column {
+          margin: 0;
+          min-height: 8em;
+         padding: 1em;
+          width: 80%;
+          display:block;
+    }
+    
+    .aside {
+        margin: 0.1em;
+        min-height: 4em;
+        padding: 0;
+        width: 60%;
+          background-color: #394F70;
+        }
+    
+    .column:nth-child(1) { background-color: #807c9e; }
+    .column:nth-child(2) { background-color: #9df5d7; }
+
+    /* Estilo de Servicios */
+
+    details {
+        display:block; 
+        width:300px;
+        margin:10px 0;
+        }
+        summary {
+        display:block; 
+        background:coral;
+        color:white;
+        border-radius:5px;
+        padding:5px;
+        cursor:pointer;font-weight:bold;
+        }
